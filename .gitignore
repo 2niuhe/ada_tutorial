@@ -1,0 +1,33 @@
+# Ada specific
+*.ali
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.bexch
+*.lexch
+*.db-shm
+*.db-wal
+
+# GPRBuild specific
+.build/
+obj/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+/ada_code/**/obj/
+/ada_code/**/lib/
+/ada_code/**/bin/
+
+# Keep all .gpr project files
+!*.gpr
