@@ -31,3 +31,4 @@ Thumbs.db
 
 # Keep all .gpr project files
 !*.gpr
+.env
