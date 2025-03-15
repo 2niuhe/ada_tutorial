@@ -5,4 +5,4 @@ include .env
 .PHONY: sync
 
 sync:
-	rsync -avz --exclude .git/ ./ $${REMOTE_USER}@$${REMOTE_HOST}:$${REMOTE_PATH}
+	rsync -avvz ./ ${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}
