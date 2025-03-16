@@ -32,7 +32,6 @@ GNATFLAGS = -Wall -gnata -v
 
 # 定义主程序文件名映射（每行一个映射，不要有多余的空格）
 define MAIN_PROGRAMS
-advanced_concurrency:advanced_tasking.adb
 concurrency:concurrent_demo.adb
 contract_programming:contracts.adb
 control_structures:control.adb
